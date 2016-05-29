@@ -1,0 +1,19 @@
+.fixedText {
+	border: solid 1px black;
+	margin: 12px;
+	padding: 12px;
+	background-color: lightgreen;
+}
+
+.myQuestionTypeBox {
+	border: solid 1px black;
+	display: block;
+	margin: 20px;
+	padding: 20px;
+	background-color: yellow;
+	cursor: pointer;
+}
+
+.myQuestionTypeSelectedBox {
+	background-color: lightblue;
+}

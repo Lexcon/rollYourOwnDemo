@@ -1,0 +1,12 @@
+<%= insertonce(__jquery__) %>
+<%= insertonce(__dd__) %>
+<%= insertonce('<script type="text/javascript" src="' + __packagehome__ + '/js/myQuestionType.js"></script>') %>
+<%= insertonce('<link rel="stylesheet" href="' + __packagehome__ + '/css/myQuestionType.css"/>') %>
+
+<div id="<%= questions.varlabel %>-wrapper"></div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(document).myQuestionType(<%= __item__ %>);
+	});
+</script>
